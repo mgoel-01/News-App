@@ -1,0 +1,107 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    display: flex;
+    width: 100%;
+    font-size: 2.5rem;
+    background: linear-gradient(180deg,hsl(0, 70%, 25%),hsl(0, 68%, 50%));
+    background-color: hsl(0, 84%, 64%);
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+form{
+    margin: 20px;
+    position: sticky;
+    top:0;
+    background-color: hsl(0, 1%, 36%);
+    z-index: 10;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    width:100%;     
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    flex-wrap: wrap;
+}
+.searchInput{
+    margin:10px;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+button[type="submit"]{
+    padding: 10px 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color:hsl(180, 100%, 50%);
+    color: #222;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+button[type="submit"]:hover{
+    background-color:#007BFF;
+}
+p{
+    font-size: 1.5rem;
+    margin:2px 20px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.idDisplay,.nameDisplay,.authorDisplay{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.titleDisplay{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.contentDisplay{
+    font-size: 1.25rem;
+    display: flex;
+    align-items: row;
+}
+.publishedAtDisplay{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.rightDisplay{
+    margin-left: auto;
+    width:fit-content;
+    text-align: right;
+}
+img{
+    max-width: 100%;
+    object-fit:cover;
+    border-radius: 10px;
+    height: 400px;
+}
+.newsCard{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 15px;
+    width: 90%;     
+    gap:5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s,boxshadow 0.2s;
+}
+.newsCard:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
