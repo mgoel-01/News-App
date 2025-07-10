@@ -98,7 +98,7 @@ img{
     padding: 15px;
     width: 90%;     
     gap:5px;
-    box-shadow: 0 0px 1px rgba(0,0,0,0.1);
+    box-shadow: 0 0px 10px rgba(0,0,0,0.1);
     transition: transform 0.2s,boxshadow 0.2s;
 }
 .newsCard:hover{
