@@ -9,7 +9,7 @@ body{
     display: flex;
     width: 100%;
     font-size: 2.5rem;
-    background: linear-gradient(180deg,hsl(0, 70%, 25%),hsl(0, 68%, 50%));
+    background: linear-gradient(to right, #d32f2f, #ff5252);
     background-color: hsl(0, 84%, 64%);
     align-items: center;
     flex-direction: column;
@@ -42,7 +42,7 @@ button[type="submit"]{
     padding: 10px 20px;
     font-size: 2rem;
     font-weight: bold;
-    background-color:hsl(180, 100%, 50%);
+    background-color:#00e6e6;
     color: #222;
     border: 2px solid black;
     border-radius: 5px;
@@ -50,7 +50,7 @@ button[type="submit"]{
 
 }
 button[type="submit"]:hover{
-    background-color:#007BFF;
+    background-color:#00cccc;
 }
 p{
     font-size: 1.5rem;
@@ -85,7 +85,7 @@ p{
 }
 img{
     max-width: 100%;
-    object-fit:cover;
+    object-fit:contain;
     border-radius: 10px;
     height: 400px;
 }
@@ -98,7 +98,7 @@ img{
     padding: 15px;
     width: 90%;     
     gap:5px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 0px 1px rgba(0,0,0,0.1);
     transition: transform 0.2s,boxshadow 0.2s;
 }
 .newsCard:hover{
